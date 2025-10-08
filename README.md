@@ -13,6 +13,9 @@ However, it had the following features:
 **Performance**
 **Documentation**: I've discussed the importance of documenting your code and project for future reference and collaboration.
 **Reference List**
+Freepik. (2025). Freepik - Free Graphic Design Tools. Retrieved August 18, 2025, from https://www.freepik.com/
+(Freepik, n.d.) Woman Doctor Wearing White Coat with Stethoscope Standing with Blister Pills Hand Rejoicing Her Success Victory Clenching Her Fist with Joy Happy. Retrieved from https://www.freepik.com/free-photo/woman-doctor-wearing-white-coat-with-stethoscope-standing-with-blister-pills-hand-rejoicing-her-success-victory-clenching-her-fist-with-joy-happy_9765557.htm#from_element=cross_selling__photo
+Freepik. (2025). Freepik - doctor-performing-medical-research-lab. Retrieved August 18, 2025, from https://www.freepik.com/
 
 The second assignment includes all the necessary information about the site's objective as a retail company.
 
@@ -22,3 +25,15 @@ The second assignment includes all the necessary information about the site's ob
 **Content Organisation**
 **Testing**: I've emphasised the importance of testing my website across different devices and browsers to ensure compatibility and responsiveness.
 **Feedback and Improvement**: I've mentioned seeking feedback from peers or instructors to improve my project.
+**Reference List**
+Freepik. (2025). Freepik - Free Graphic Design Tools. Retrieved August 18, 2025, from https://www.freepik.com/
+
+**Reference List**
+Freepik. (2025). Freepik - Free Graphic Design Tools. Retrieved August 18, 2025, from https://www.freepik.com/
+(Freepik, n.d.) Woman Doctor Wearing White Coat with Stethoscope Standing with Blister Pills Hand Rejoicing Her Success Victory Clenching Her Fist with Joy Happy. Retrieved from https://www.freepik.com/free-photo/woman-doctor-wearing-white-coat-with-stethoscope-standing-with-blister-pills-hand-rejoicing-her-success-victory-clenching-her-fist-with-joy-happy_9765557.htm#from_element=cross_selling__photo
+Freepik. (2025). Freepik - doctor-performing-medical-research-lab. Retrieved August 18, 2025, from https://www.freepik.com/
+Freepik. (2025). colorful - female-scientist-illustration. Retrieved August 18, 2025, from https://www.freepik.com/
+Freepik. (2025). flat-international-day-women-girls-science-background. Retrieved August 18, 2025, from https://www.freepik.com/
+Freepik. (2025). pharmacist-work. Retrieved August 18, 2025, from https://www.freepik.com/
+Freepik. (2025). doctor-working-with-syringe. Retrieved August 18, 2025, from https://www.freepik.com/
+Freepik. (2025). packings-pills-capsules-medicinesRetrieved August 18, 2025, from https://www.freepik.com/
