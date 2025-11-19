@@ -28,12 +28,13 @@ The second assignment includes all the necessary information about the site's ob
 **Reference List**
 Freepik. (2025). Freepik - Free Graphic Design Tools. Retrieved August 18, 2025, from https://www.freepik.com/
 
-**Reference List**
-Freepik. (2025). Freepik - Free Graphic Design Tools. Retrieved August 18, 2025, from https://www.freepik.com/
-(Freepik, n.d.) Woman Doctor Wearing White Coat with Stethoscope Standing with Blister Pills Hand Rejoicing Her Success Victory Clenching Her Fist with Joy Happy. Retrieved from https://www.freepik.com/free-photo/woman-doctor-wearing-white-coat-with-stethoscope-standing-with-blister-pills-hand-rejoicing-her-success-victory-clenching-her-fist-with-joy-happy_9765557.htm#from_element=cross_selling__photo
-Freepik. (2025). Freepik - doctor-performing-medical-research-lab. Retrieved August 18, 2025, from https://www.freepik.com/
-Freepik. (2025). colorful - female-scientist-illustration. Retrieved August 18, 2025, from https://www.freepik.com/
-Freepik. (2025). flat-international-day-women-girls-science-background. Retrieved August 18, 2025, from https://www.freepik.com/
-Freepik. (2025). pharmacist-work. Retrieved August 18, 2025, from https://www.freepik.com/
-Freepik. (2025). doctor-working-with-syringe. Retrieved August 18, 2025, from https://www.freepik.com/
-Freepik. (2025). packings-pills-capsules-medicinesRetrieved August 18, 2025, from https://www.freepik.com/
+The Final POE includes all the nexessary additionals required from the second part, including the following:
+**Added client-side form validation** (registration & enquiry)
+**Implemented AJAX enquiry submission**
+**Created responsive accordion** (Encyclopedia) and tabs (Research Hub)
+**Built product gallery with light-box image viewer**
+**Added live search bar on home page**
+**Included robots.txt and sitemap.xml for SEO**
+**Optimised images with lazy-loading and descriptive alt text**
+**Added smooth-scroll anchors for UX**
+
