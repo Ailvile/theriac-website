@@ -38,3 +38,6 @@ The Final POE includes all the nexessary additionals required from the second pa
 **Optimised images with lazy-loading and descriptive alt text**
 **Added smooth-scroll anchors for UX**
 
+git add JavaScript/script.js
+git commit -m "Part 3 final: cart total now updates from gallery buttons"
+git push origin main
