@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theriac - Home</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+</head>
+<meta name="description" content="Theriac - Pharmaceutical Biomedical Research Institute. Discover medicines, research kits, consultations and more.">
+<meta name="keywords" content="pharmaceuticals, research kits, medicines, consultations, anecdotes, biomedical, Theriac">
+<meta name="author" content="Theriac Institute">
+<link rel="canonical" href="https://yourdomain.com/">
+<meta property="og:title" content="Theriac Institute">
+<meta property="og:description" content="Advancing healthcare through innovative medicines and research.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://yourdomain.com/">
+<meta property="og:image" content="https://yourdomain.com/Images/NSL Logo.jpg">
+<body>
+    <script>
+/* === Home JS === */
+/* lazy-load hero image for speed */
+const heroImg = new Image();
+heroImg.src = "../Images/pharmacist-work.jpg";
+heroImg.decode().then(() => {
+  document.querySelector('.hero .body-img').src = heroImg.src;
+});
+
+/* live search across all pages (simple filter) */
+function searchFunction() {
+  const q = document.getElementById('search').value.toLowerCase();
+  const pages = [
+    {title:'Home', url:'../Home Index/index.html'},
+    {title:'Services', url:'../Services/services.html'},
+    {title:'Contact', url:'../Contact/contact.html'}
+  ];
+  const out = pages.filter(p => p.title.toLowerCase().includes(q));
+  const box = document.getElementById('search-results') || (()=>{
+    const d=document.createElement('div'); d.id='search-results';
+    d.style.cssText='position:absolute;top:100%;left:0;background:#fff;border:1px solid #ccc;z-index:9999;max-width:300px;';
+    document.querySelector('nav ul').appendChild(d); return d;
+  })();
+  box.innerHTML = out.map(p=>`<a href="${p.url}" style="display:block;padding:8px;">${p.title}</a>`).join('') || '<span style="padding:8px;">No match</span>';
+  box.style.display = out.length ? 'block' : 'none';
+}
+document.getElementById('search').addEventListener('input', searchFunction);
+</script>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="../Images/NSL Logo.jpg" alt="Theriac Logo" class="logo-img">
+                </div>
+            <ul>
+                <input type="text" id="search" placeholder="Search...">
+                <button onclick="searchFunction()">Search</button>
+                <li><a href="../Home Index/index.html">Home</a></li>
+                <li><a href="../Encyclopedia/encyclopedia.html">Encyclopedia</a></li>
+                <li><a href="../Research Hub/research hub.html">Research Hub</a></li>
+                <li><a href="../Services/services.html">Services</a></li>
+                <li><a href="../Contact/contact.html">Contact</a></li>
+                <li><a href="../News/news.html">News</a></li>
+                <li><a href="../About/about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+        <h2>Noetic Scholarly Lens Pharmaceutical Biomedical Research Institute</h2> 
+            <div class="img">
+                <img src="../Images/pharmacist-work.jpg" alt="body" class="body-img">
+            </div>
+            <h1>A Virtual Lab to Harness Medicine</h1>
+            </p>Focused on enhancing medical practices,improving patient outcomes and evaluation.</p>
+            <a href="../About/about.html" class="btn">Learn More About Us</a>
+        </section>
+        <section class="overview">
+            <h2>Our Mission</h2>
+            <div class="img">
+                <img src="../Images/doctor-performing-medical-research-lab.jpg" alt="body-img">
+            </div>
+            <p>At the Biomedical Research Institute, our mission is to advance the frontiers of healthcare through innovation and collaboration.
+                We strive to improve lives by merging cutting-edge biomedical research with intellectual inquiry to develop synthetic chemical medicines and antidotes.
+                Our dedication to excellence in research and development ensures that we provide the highest quality pharmaceutical products to meet the diverse needs of our patients and customers.</p>
+
+                <p>As an underlying layer of NSL, Theriac combines expertise in synthetic chemistry with a deep understanding of biological systems to create effective and safe medications.
+                    We are committed to delivering innovative solutions that address unmet medical needs and enhance the overall quality of healthcare.In addition to our research endeavors,
+                    we operate as a retail business, offering a wide range of medicines, antidotes, and other pharmaceutical products. Our retail division is dedicated to providing
+                    exceptional service and access to essential healthcare products, ensuring that both patients and consumers have the support they need to maintain and improve their health.
+                    We are passionate about making a difference in the lives of the people we serve. Through our research, development, and retail operations, we aim to be a leader in the
+                    healthcare sector, known for our integrity, innovation, and commitment to improving global health outcomes.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; ST10445875 2025 Theriac. All rights reserved.</p>
+    </footer>
+    <script src="../JavaScript/script.js"></script>
+</body>
+</html>
