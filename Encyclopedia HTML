@@ -1,0 +1,41 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theriac - Encyclopedia</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="../Images/NSL Logo.jpg" alt="Theriac Logo" class="logo-img">
+            </div>
+            <ul>
+                <li><a href="../Home Index/index.html">Home</a></li>
+                <li class="has-dropdown">
+                    <a href="#">Encyclopedia</a>
+                    <ul class="dropdown">
+                        <li><a href="#topic1">Topic 1</a></li>
+                        <li><a href="#topic2">Topic 2</a></li>
+                    </ul>
+                <li><a href="../Research Hub/research hub.html">Research Hub</a></li>
+                <li><a href="../Services/services.html">Services</a></li>
+                <li><a href="../Contact/contact.html">Contact</a></li>
+                <li><a href="../News/news.html">News</a></li>
+                <li><a href="../About/about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+      <section class="encyclopedia">
+  <h1>Pharmaceutical Encyclopedia</h1>
+  <img src="../Encyclopedia/Encyclopedia Images/doctor-working-with-syringe.jpg" alt="Doctor demonstrating syringe use for patient education" loading="lazy">
+  <div class="accordion">
+    <button class="acc-btn" onclick="this.nextElementSibling.classList.toggle('active')">Topic 1: Drug Classes</button>
+    <div class="acc-panel"><p>Analgesics, antibiotics, antiseptics – mechanisms, side-effects, indications.</p></div>
+    <button class="acc-btn" onclick="this.nextElementSibling.classList.toggle('active')">Topic 2: Safe Storage</button>
+    <div class="acc-panel"><p>Optimal temperature, humidity, light protection and expiry management.</p></div>
+  </div>
+</section>
